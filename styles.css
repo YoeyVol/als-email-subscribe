@@ -114,17 +114,24 @@ h1 {
 }
 
 .logo-box {
-  height: 72px;
+  height: 88px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding: 0.65rem 0.75rem;
+  border-radius: 14px;
+  background: #f7fafc;
+  border: 1px solid #e8eef4;
+  overflow: visible;
 }
 
 .logo-box img {
   max-height: 64px;
   max-width: 100%;
   width: auto;
+  height: auto;
   object-fit: contain;
+  display: block;
 }
 
 .card h2 {
@@ -198,6 +205,6 @@ h1 {
   }
 
   .logo-box {
-    height: 64px;
+    height: 80px;
   }
 }
